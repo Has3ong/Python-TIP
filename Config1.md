@@ -41,6 +41,36 @@ config = configparser.ConfigParser()
 config.read('config.ini')
 ```
 
+* optparser
+
+```
+from optparse import OptionParser
+
+def main():
+    usage = 'usage : %prog [options] arg1 arg2'
+    parser = OptionParser(usage=usage)
+    parser.add_option('-f', '--file', action='store', type='string',
+    dest='filename', help='File name')
+    options, args = parser.parse_args()
+    print(options)
+    print(args)
+
+if __name__ == '__main__':
+    main()
+```
+```
+$ python3 test.py -f test.txt 10 20
+{'filename': 'test.txt'}
+['10', '20']
+
+$ python3 test.py --help
+Usage: usage : test.py [options] arg1 arg2
+
+Options:
+  -h, --help            show this help message and exit
+  -f FILENAME, --file=FILENAME
+```
+
 * yaml
 ```
 import yaml
