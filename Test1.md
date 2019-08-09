@@ -83,10 +83,3 @@ Ran 1 test in 0.000s
 
 FAILED (failures=1)
 ```
-
-* PyTest
-
-```
-```
-```
-```
