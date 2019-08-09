@@ -1,7 +1,7 @@
 # Python-TIP
 #### 처음보는게 하나라도 있으면 당신은 파이썬 청정수
 
-#### Settings
+#### Version
 ```
 $ python
 Python 3.7.4 (default, Jul  9 2019, 18:13:23) 

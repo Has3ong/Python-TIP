@@ -51,6 +51,7 @@ with zipfile.Zipfile('test.zip', 'w') as z:
 
 with zipfile.Zipfile('test.zip', 'r') as z:
     z.extractall('123123123')
+```
 
 * tempfile
 
@@ -69,7 +70,9 @@ with tempfile.NamedTemporaryFile(delete=False) as t:
         f.seek(0)
         print(f.read())
 ```
+
 * subprocess
+
 ```
 import subprocess
 subprocess.run('ls -al', shell=True)
