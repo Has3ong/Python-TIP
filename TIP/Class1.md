@@ -1,6 +1,6 @@
 # Class1
 
-* Initalize, Deletor
+* Constructor, ~Constructor
 
 ```
 class Car():
