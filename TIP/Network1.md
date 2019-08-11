@@ -83,7 +83,7 @@ with xmlrpc.client.ServerProxy('http://127.0.0.1:8000/') as proxy:
 ```
 
 
-* NetowrkX
+* NetworkX
 
 ```
 import matplotlib.pyplot as plt
